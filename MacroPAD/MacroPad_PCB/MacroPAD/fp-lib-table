@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "RS3E075ATTB")(type "KiCad")(uri "${KIPRJMOD}/Ex_footprints/RS3E075ATTB.pretty")(options "")(descr ""))
   (lib (name "Switch_Keyboard_Hotswap_Kailh")(type "KiCad")(uri "${KIPRJMOD}/Ex_footprints/Switch_Keyboard_Hotswap_Kailh.pretty")(options "")(descr ""))
+  (lib (name "usb-c-2171790001")(type "KiCad")(uri "${KIPRJMOD}/Ex_footprints/usb-c-2171790001.pretty")(options "")(descr ""))
 )
