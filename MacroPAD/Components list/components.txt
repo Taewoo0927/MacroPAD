@@ -1,0 +1,14 @@
+1. OLED screen: 
+	a. https://www.amazon.ca/128x32-SSD1306-Consumption-Display-Arduino/dp/B07PDFCVXL
+	b. https://www.pcboard.ca/oled-128x32
+	c. https://www.universal-solder.ca/product/0-96-inch-oled-spi-interface-128x64-3-to-5v/
+
+2. LED strip:
+	a. https://www.pcboard.ca/oled-128x32
+	b. https://www.digikey.ca/en/products/detail/sparkfun-electronics/COM-16347/11630204
+
+	WS2812B ---- COM-16347
+
+3. Rotary Encoder
+	a. https://www.mouser.ca/ProductDetail/Bourns/PEC12R-4225F-N0024?qs=Zq5ylnUbLm5qRBn4l66kAQ%3D%3D&mgh=1&utm_id=17633666059&gad_source=1&gclid=CjwKCAiApsm7BhBZEiwAvIu2X8RPXdNNeZqnlkxvQL68Na7vSpQtBNQSTQkM0-eENlfVXYdB7c1KcxoCBEgQAvD_BwE
+	b. https://www.digikey.ca/en/products/detail/bourns-inc/PEC12R-4225F-N0024/4699284
