@@ -19149,6 +19149,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "ISP-PRG"
+		(at 153.8 66.175 0)
+		(layer "F.SilkS")
+		(uuid "4cd40e1a-160d-4c17-8f8e-61dac80de10f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(segment
 		(start 167.135 138.45)
 		(end 164.1 138.45)

@@ -4980,7 +4980,7 @@
 		)
 		(uuid "2ac7498b-0626-4b19-ac10-d4fd64533184")
 	)
-	(text "USB-C / Reverse polarity protection / ESD protection IC"
+	(text "USB-C / ESD protection IC"
 		(exclude_from_sim no)
 		(at 41.148 144.272 0)
 		(effects
