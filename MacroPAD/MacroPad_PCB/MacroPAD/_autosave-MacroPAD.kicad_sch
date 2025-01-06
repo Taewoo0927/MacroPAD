@@ -3811,7 +3811,7 @@
 		(uuid "dc343cef-0a12-421b-8097-2fd6d8bfc00e")
 	)
 	(junction
-		(at 135.89 130.81)
+		(at 132.08 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e9f853b5-8618-4703-bb6a-9a5857dee4c0")
@@ -3829,13 +3829,13 @@
 		(uuid "f0fe0789-5449-4297-8bf5-699268382006")
 	)
 	(junction
-		(at 127 130.81)
+		(at 123.19 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4b91ee7-6a4f-485a-8000-e36f8e5d3e3c")
 	)
 	(junction
-		(at 144.78 130.81)
+		(at 140.97 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ff072e9d-50a7-4d65-8cb1-1b9cc9f014a0")
@@ -4280,7 +4280,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 130.81) (xy 127 130.81)
+			(xy 114.3 134.62) (xy 123.19 134.62)
 		)
 		(stroke
 			(width 0)
@@ -4348,6 +4348,16 @@
 		)
 		(uuid "579c0681-abe5-40c3-9512-11470f0f5f30")
 	)
+	(polyline
+		(pts
+			(xy 176.53 123.19) (xy 176.53 124.46)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "57bdf7a3-34e6-42ae-94f1-25aab8017f4a")
+	)
 	(wire
 		(pts
 			(xy 21.59 44.45) (xy 26.67 44.45)
@@ -4400,7 +4410,7 @@
 	)
 	(polyline
 		(pts
-			(xy 128.27 117.475) (xy 128.27 86.36)
+			(xy 128.27 122.555) (xy 128.27 86.36)
 		)
 		(stroke
 			(width 0)
@@ -4597,6 +4607,16 @@
 			(type default)
 		)
 		(uuid "944849f0-0c6e-4a65-9954-439e5b187868")
+	)
+	(polyline
+		(pts
+			(xy 176.53 142.24) (xy 176.53 124.46)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "988a5b44-27b5-489a-a2c4-2db554cd1c05")
 	)
 	(wire
 		(pts
@@ -4850,7 +4870,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 130.81) (xy 144.78 130.81)
+			(xy 132.08 134.62) (xy 140.97 134.62)
 		)
 		(stroke
 			(width 0)
@@ -5000,7 +5020,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 130.81) (xy 135.89 130.81)
+			(xy 123.19 134.62) (xy 132.08 134.62)
 		)
 		(stroke
 			(width 0)
@@ -5067,6 +5087,16 @@
 			)
 		)
 		(uuid "2b6aeda2-c4c1-43b1-9c48-fdbf831eb8ef")
+	)
+	(text "Mounting holes"
+		(exclude_from_sim no)
+		(at 97.282 125.476 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7d0768bc-9794-4a14-a1bf-dc37e3af79c3")
 	)
 	(text "LED strip (x6)"
 		(exclude_from_sim no)
@@ -6673,7 +6703,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 144.78 128.27 0)
+		(at 140.97 132.08 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -6682,7 +6712,7 @@
 		(fields_autoplaced yes)
 		(uuid "2d085d40-4277-421a-889d-4a20d4ed295c")
 		(property "Reference" "H4"
-			(at 147.32 125.7299 0)
+			(at 143.51 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6691,7 +6721,7 @@
 			)
 		)
 		(property "Value" "M4"
-			(at 147.32 128.2699 0)
+			(at 143.51 132.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6700,7 +6730,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 144.78 128.27 0)
+			(at 140.97 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6709,7 +6739,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 128.27 0)
+			(at 140.97 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6718,7 +6748,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 144.78 128.27 0)
+			(at 140.97 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7816,7 +7846,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 118.11 128.27 0)
+		(at 114.3 132.08 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -7825,7 +7855,7 @@
 		(fields_autoplaced yes)
 		(uuid "6196ceb5-4dc1-4cf2-8ff3-a861d9b0d481")
 		(property "Reference" "H1"
-			(at 120.65 125.7299 0)
+			(at 116.84 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7834,7 +7864,7 @@
 			)
 		)
 		(property "Value" "M1"
-			(at 120.65 128.2699 0)
+			(at 116.84 132.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7843,7 +7873,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 118.11 128.27 0)
+			(at 114.3 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7852,7 +7882,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 118.11 128.27 0)
+			(at 114.3 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7861,7 +7891,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 118.11 128.27 0)
+			(at 114.3 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8613,7 +8643,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 135.89 128.27 0)
+		(at 132.08 132.08 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -8622,7 +8652,7 @@
 		(fields_autoplaced yes)
 		(uuid "8d161abb-f62a-4f18-8be6-7e2a55d9ca4a")
 		(property "Reference" "H3"
-			(at 138.43 125.7299 0)
+			(at 134.62 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8631,7 +8661,7 @@
 			)
 		)
 		(property "Value" "M3"
-			(at 138.43 128.2699 0)
+			(at 134.62 132.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8640,7 +8670,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 135.89 128.27 0)
+			(at 132.08 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8649,7 +8679,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 135.89 128.27 0)
+			(at 132.08 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8658,7 +8688,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 135.89 128.27 0)
+			(at 132.08 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9096,7 +9126,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 127 128.27 0)
+		(at 123.19 132.08 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -9105,7 +9135,7 @@
 		(fields_autoplaced yes)
 		(uuid "9951b96f-794f-41ac-b884-028678ae8c47")
 		(property "Reference" "H2"
-			(at 129.54 125.7299 0)
+			(at 125.73 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9114,7 +9144,7 @@
 			)
 		)
 		(property "Value" "M2"
-			(at 129.54 128.2699 0)
+			(at 125.73 132.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9123,7 +9153,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 127 128.27 0)
+			(at 123.19 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9132,7 +9162,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 128.27 0)
+			(at 123.19 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9141,7 +9171,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 127 128.27 0)
+			(at 123.19 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9163,7 +9193,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 144.78 130.81 0)
+		(at 140.97 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9171,7 +9201,7 @@
 		(dnp no)
 		(uuid "9a6cb278-15e0-4c5c-998b-46f9376d0af4")
 		(property "Reference" "#PWR025"
-			(at 144.78 137.16 0)
+			(at 140.97 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9180,7 +9210,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 144.78 134.366 0)
+			(at 140.97 138.176 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9188,7 +9218,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 130.81 0)
+			(at 140.97 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9197,7 +9227,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 130.81 0)
+			(at 140.97 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9206,7 +9236,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 144.78 130.81 0)
+			(at 140.97 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10173,7 +10203,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 107.95 100.33 0)
 			(effects
 				(font
@@ -11570,7 +11600,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 107.95 110.49 0)
 			(effects
 				(font
