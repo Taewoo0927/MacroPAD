@@ -3811,7 +3811,7 @@
 		(uuid "dc343cef-0a12-421b-8097-2fd6d8bfc00e")
 	)
 	(junction
-		(at 135.89 130.81)
+		(at 132.08 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e9f853b5-8618-4703-bb6a-9a5857dee4c0")
@@ -3829,13 +3829,13 @@
 		(uuid "f0fe0789-5449-4297-8bf5-699268382006")
 	)
 	(junction
-		(at 127 130.81)
+		(at 123.19 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4b91ee7-6a4f-485a-8000-e36f8e5d3e3c")
 	)
 	(junction
-		(at 144.78 130.81)
+		(at 140.97 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ff072e9d-50a7-4d65-8cb1-1b9cc9f014a0")
@@ -4280,7 +4280,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 130.81) (xy 127 130.81)
+			(xy 114.3 134.62) (xy 123.19 134.62)
 		)
 		(stroke
 			(width 0)
@@ -4348,6 +4348,16 @@
 		)
 		(uuid "579c0681-abe5-40c3-9512-11470f0f5f30")
 	)
+	(polyline
+		(pts
+			(xy 176.53 123.19) (xy 176.53 124.46)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "57bdf7a3-34e6-42ae-94f1-25aab8017f4a")
+	)
 	(wire
 		(pts
 			(xy 21.59 44.45) (xy 26.67 44.45)
@@ -4400,7 +4410,7 @@
 	)
 	(polyline
 		(pts
-			(xy 128.27 117.475) (xy 128.27 86.36)
+			(xy 128.27 122.555) (xy 128.27 86.36)
 		)
 		(stroke
 			(width 0)
@@ -4597,6 +4607,16 @@
 			(type default)
 		)
 		(uuid "944849f0-0c6e-4a65-9954-439e5b187868")
+	)
+	(polyline
+		(pts
+			(xy 176.53 142.24) (xy 176.53 124.46)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "988a5b44-27b5-489a-a2c4-2db554cd1c05")
 	)
 	(wire
 		(pts
@@ -4850,7 +4870,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 130.81) (xy 144.78 130.81)
+			(xy 132.08 134.62) (xy 140.97 134.62)
 		)
 		(stroke
 			(width 0)
@@ -5000,7 +5020,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 130.81) (xy 135.89 130.81)
+			(xy 123.19 134.62) (xy 132.08 134.62)
 		)
 		(stroke
 			(width 0)
@@ -5067,6 +5087,16 @@
 			)
 		)
 		(uuid "2b6aeda2-c4c1-43b1-9c48-fdbf831eb8ef")
+	)
+	(text "Mounting holes"
+		(exclude_from_sim no)
+		(at 97.282 125.476 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7d0768bc-9794-4a14-a1bf-dc37e3af79c3")
 	)
 	(text "LED strip (x6)"
 		(exclude_from_sim no)
@@ -5921,6 +5951,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CL10A105KB8NNNC"
+			(at 34.29 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "dd27a40c-f716-432a-a71b-9054f82abdfd")
 		)
@@ -5984,6 +6023,15 @@
 		)
 		(property "Description" "RGB LED with integrated controller"
 			(at 266.7 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "COM-16347"
+			(at 0 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6085,6 +6133,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "1N4148W-13-F"
+			(at 181.61 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2b52b774-5f90-41f7-9dff-3e13e09ae920")
 		)
@@ -6146,6 +6203,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 29.21 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC1206FR-0710KL"
 			(at 29.21 29.21 0)
 			(effects
 				(font
@@ -6591,6 +6657,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "1N4148W-13-F"
+			(at 104.14 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a39bb23c-40ea-4c2d-b2ea-2651818df9ab")
 		)
@@ -6673,7 +6748,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 144.78 128.27 0)
+		(at 140.97 132.08 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -6682,7 +6757,7 @@
 		(fields_autoplaced yes)
 		(uuid "2d085d40-4277-421a-889d-4a20d4ed295c")
 		(property "Reference" "H4"
-			(at 147.32 125.7299 0)
+			(at 143.51 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6691,7 +6766,7 @@
 			)
 		)
 		(property "Value" "M4"
-			(at 147.32 128.2699 0)
+			(at 143.51 132.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6700,7 +6775,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 144.78 128.27 0)
+			(at 140.97 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6709,7 +6784,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 128.27 0)
+			(at 140.97 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6718,7 +6793,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 144.78 128.27 0)
+			(at 140.97 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7053,6 +7128,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C0603C104K5RACTU"
+			(at 31.75 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d79b1d31-b42d-46ae-b591-c4cae6fd8b5d")
 		)
@@ -7185,6 +7269,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "LTST-C150YKT"
+			(at 83.82 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d0c653fb-d913-4e59-886a-b46fe3f58c97")
 		)
@@ -7254,6 +7347,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C0603C106M8PACTU"
+			(at 177.8 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5f494787-7831-4e2c-a1a1-c97c3fd1f21a")
 		)
@@ -7279,7 +7381,7 @@
 		(dnp no)
 		(uuid "478f70a3-1c8d-4169-be46-942d21b14af1")
 		(property "Reference" "R5"
-			(at 27.94 155.702 90)
+			(at 27.686 153.924 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7288,7 +7390,7 @@
 			)
 		)
 		(property "Value" "5k1"
-			(at 28.448 157.48 90)
+			(at 28.448 155.702 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7316,6 +7418,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 26.67 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CR0603-FX-5101ELF"
+			(at 26.67 157.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7391,6 +7502,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "PG151101S11"
+			(at 0 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e309d409-e809-4b2b-905e-f44bc738b888")
 		)
@@ -7459,6 +7579,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "PG151101S11"
+			(at 0 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e4445e25-c863-407c-b098-b2c16a46684d")
 		)
@@ -7493,7 +7622,7 @@
 			)
 		)
 		(property "Value" "5k1"
-			(at 69.088 165.1 90)
+			(at 69.342 168.656 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7521,6 +7650,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 67.31 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CR0603-FX-5101ELF"
+			(at 67.31 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7626,8 +7764,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
-			(at 85.09 41.91 90)
+		(property "Value" "220"
+			(at 83.312 42.418 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7655,6 +7793,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 85.09 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRG1206F220R"
+			(at 0 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7796,6 +7943,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "PEC12R-4225F-N0024"
+			(at 0 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "C"
 			(uuid "f7de3c09-1038-4ba5-bd58-bc9107365636")
 		)
@@ -7816,7 +7972,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 118.11 128.27 0)
+		(at 114.3 132.08 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -7825,7 +7981,7 @@
 		(fields_autoplaced yes)
 		(uuid "6196ceb5-4dc1-4cf2-8ff3-a861d9b0d481")
 		(property "Reference" "H1"
-			(at 120.65 125.7299 0)
+			(at 116.84 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7834,7 +7990,7 @@
 			)
 		)
 		(property "Value" "M1"
-			(at 120.65 128.2699 0)
+			(at 116.84 132.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7843,7 +7999,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 118.11 128.27 0)
+			(at 114.3 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7852,7 +8008,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 118.11 128.27 0)
+			(at 114.3 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7861,7 +8017,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 118.11 128.27 0)
+			(at 114.3 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7927,6 +8083,15 @@
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 130.81 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PG151101S11"
+			(at 0 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8090,6 +8255,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "SKHHAKA010"
+			(at 0 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "79060166-8ac8-4849-9815-242088dd97db")
 		)
@@ -8171,6 +8345,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 147.32 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148W-13-F"
+			(at 199.39 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8396,6 +8579,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "1N4148W-13-F"
+			(at 160.02 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ec50bada-9a7a-40d8-a71e-aceffb18d454")
 		)
@@ -8457,6 +8649,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 24.13 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C104K5RACTU"
 			(at 24.13 132.08 0)
 			(effects
 				(font
@@ -8613,7 +8814,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 135.89 128.27 0)
+		(at 132.08 132.08 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -8622,7 +8823,7 @@
 		(fields_autoplaced yes)
 		(uuid "8d161abb-f62a-4f18-8be6-7e2a55d9ca4a")
 		(property "Reference" "H3"
-			(at 138.43 125.7299 0)
+			(at 134.62 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8631,7 +8832,7 @@
 			)
 		)
 		(property "Value" "M3"
-			(at 138.43 128.2699 0)
+			(at 134.62 132.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8640,7 +8841,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 135.89 128.27 0)
+			(at 132.08 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8649,7 +8850,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 135.89 128.27 0)
+			(at 132.08 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8658,7 +8859,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 135.89 128.27 0)
+			(at 132.08 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8723,6 +8924,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 109.22 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PG151101S11"
 			(at 109.22 30.48 0)
 			(effects
 				(font
@@ -8801,6 +9011,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "61200621621"
+			(at 0 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4f87e6f3-84a9-412a-9e2e-93a89ae9f1a3")
 		)
@@ -8838,7 +9057,7 @@
 		(dnp no)
 		(uuid "96fb35d9-e4ab-4e03-a852-cd8eaaacc386")
 		(property "Reference" "R3"
-			(at 132.334 170.942 90)
+			(at 132.08 170.942 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8847,7 +9066,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 132.08 168.91 90)
+			(at 132.08 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8875,6 +9094,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 130.81 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-0722RL"
+			(at 130.81 168.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8941,6 +9169,15 @@
 			)
 		)
 		(property "Description" "Red Light emitting diode"
+			(at 85.09 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LTST-C150KRKT "
 			(at 85.09 46.99 0)
 			(effects
 				(font
@@ -9096,7 +9333,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 127 128.27 0)
+		(at 123.19 132.08 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -9105,7 +9342,7 @@
 		(fields_autoplaced yes)
 		(uuid "9951b96f-794f-41ac-b884-028678ae8c47")
 		(property "Reference" "H2"
-			(at 129.54 125.7299 0)
+			(at 125.73 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9114,7 +9351,7 @@
 			)
 		)
 		(property "Value" "M2"
-			(at 129.54 128.2699 0)
+			(at 125.73 132.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9123,7 +9360,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 127 128.27 0)
+			(at 123.19 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9132,7 +9369,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 128.27 0)
+			(at 123.19 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9141,7 +9378,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 127 128.27 0)
+			(at 123.19 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9163,7 +9400,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 144.78 130.81 0)
+		(at 140.97 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9171,7 +9408,7 @@
 		(dnp no)
 		(uuid "9a6cb278-15e0-4c5c-998b-46f9376d0af4")
 		(property "Reference" "#PWR025"
-			(at 144.78 137.16 0)
+			(at 140.97 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9180,7 +9417,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 144.78 134.366 0)
+			(at 140.97 138.176 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9188,7 +9425,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 130.81 0)
+			(at 140.97 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9197,7 +9434,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 130.81 0)
+			(at 140.97 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9206,7 +9443,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 144.78 130.81 0)
+			(at 140.97 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9244,8 +9481,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
-			(at 83.82 85.09 90)
+		(property "Value" "220"
+			(at 82.042 85.598 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9273,6 +9510,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 83.82 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRG1206F220R"
+			(at 0 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9340,6 +9586,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 24.13 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10C120JB8NNNC"
+			(at 24.13 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9435,6 +9690,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "1N4148W-13-F"
+			(at 156.21 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "40669094-5080-458d-8342-f6532e8f7e24")
 		)
@@ -9497,6 +9761,15 @@
 		)
 		(property "Description" "5V Data line protection"
 			(at 110.49 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "USB6B1"
+			(at 0 332.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9722,6 +9995,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C0603C106M8PACTU"
+			(at 185.42 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d9947d1b-22fa-48e6-9982-75beca9d0512")
 		)
@@ -9784,6 +10066,15 @@
 		)
 		(property "Description" "RGB LED with integrated controller"
 			(at 219.71 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "COM-16347"
+			(at 0 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9861,6 +10152,15 @@
 		)
 		(property "Description" "16MHz, 32kB Flash, 2.5kB SRAM, 1kB EEPROM, USB 2.0, TQFP-44"
 			(at 53.34 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ATmega32U4-A"
+			(at 0 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10028,7 +10328,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 72.898 90.17 90)
+			(at 72.898 91.948 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10056,6 +10356,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 71.12 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-0710KL"
+			(at 71.12 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10131,6 +10440,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "PG151101S11"
+			(at 0 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8b145d8f-42ff-49b0-a805-33beae524dd0")
 		)
@@ -10165,7 +10483,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 107.95 102.108 90)
+			(at 104.394 102.108 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10173,7 +10491,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 107.95 100.33 0)
 			(effects
 				(font
@@ -10193,6 +10511,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 107.95 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-0710KL"
+			(at 107.95 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10487,6 +10814,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "PG151101S11"
+			(at 0 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1e516543-b6ca-4a81-9022-32cf555902f6")
 		)
@@ -10620,6 +10956,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "PG151101S11"
+			(at 0 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "50f24f79-9278-423d-b7f0-e0e392e891b6")
 		)
@@ -10681,6 +11026,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 198.12 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C106M8PACTU"
 			(at 198.12 57.15 0)
 			(effects
 				(font
@@ -10796,6 +11150,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "2171790001"
+			(at 0 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "B1A12"
 			(uuid "a1694e4c-11e0-48d7-bdb3-1c183aa1e718")
 		)
@@ -10905,6 +11268,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C0603C103K5RACTU"
+			(at 105.41 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "aaddb7d3-ba0d-452b-ab8a-6d368d44ebc2")
 		)
@@ -10965,6 +11337,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 24.13 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10C120JB8NNNC"
+			(at 24.13 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11041,6 +11422,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C0603C104K5RACTU"
+			(at 16.51 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f3ac8a2f-36d6-4356-8274-a8700e758b09")
 		)
@@ -11101,6 +11491,15 @@
 		)
 		(property "Description" "Green Light emitting diode"
 			(at 16.51 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LG R971-KN-1-0-20-R18 "
+			(at 16.51 181.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11170,6 +11569,15 @@
 		)
 		(property "Description" "RGB LED with integrated controller"
 			(at 245.11 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "COM-16347"
+			(at 0 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11253,6 +11661,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "COM-16347"
+			(at 0 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3fde9b97-0279-4d96-ad07-5226b16fa337")
 		)
@@ -11284,7 +11701,7 @@
 		(dnp no)
 		(uuid "dff3caa9-1517-438a-9f5d-491448d67eca")
 		(property "Reference" "R2"
-			(at 132.334 161.544 90)
+			(at 132.08 160.274 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11293,7 +11710,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 132.08 163.83 90)
+			(at 132.08 162.052 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11321,6 +11738,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 130.81 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-0722RL"
+			(at 130.81 163.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11395,6 +11821,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C0603C103K5RACTU"
+			(at 104.14 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "09b1dfe7-9c0d-4417-84bd-5503fff18d43")
 		)
@@ -11456,6 +11891,15 @@
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 109.22 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PG151101S11"
+			(at 0 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11562,7 +12006,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 107.95 112.268 90)
+			(at 104.394 112.014 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11570,7 +12014,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 107.95 110.49 0)
 			(effects
 				(font
@@ -11590,6 +12034,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 107.95 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-0710KL"
+			(at 107.95 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11730,6 +12183,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "PG151101S11"
+			(at 0 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1dea25d6-acbf-43b6-9a0d-8e9a12bf0ae1")
 		)
@@ -11791,6 +12253,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 191.77 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C106M8PACTU"
 			(at 191.77 57.15 0)
 			(effects
 				(font
@@ -11953,6 +12424,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "1N4148W-13-F "
+			(at 177.8 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b5b73c09-4a4a-41eb-8d31-b79550073a31")
 		)
@@ -12051,7 +12531,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "220"
 			(at 17.526 174.498 0)
 			(effects
 				(font
@@ -12079,6 +12559,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 16.51 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRGCQ0805F220R"
 			(at 16.51 175.26 0)
 			(effects
 				(font
@@ -12212,6 +12701,15 @@
 		)
 		(property "Description" "Four pin crystal, GND on pins 2 and 4, small symbol"
 			(at 29.21 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ECS-160-20-33-TR"
+			(at 73.66 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
